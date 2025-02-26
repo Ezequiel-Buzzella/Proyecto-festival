@@ -12,10 +12,7 @@
 
   .boletos {
     @include m.contenedor;
-    @include m.tablet {
-      @include m.grid(2, 6);
-      
-    }
+    @include m.grid(2,5)
   }
 }
 
